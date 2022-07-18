@@ -1,4 +1,4 @@
-function TodoItem({ item, onCheck }) {
+function TodoItem({item, onCheck }) {
   const handleChange = () => {
     onCheck(item);
   }
